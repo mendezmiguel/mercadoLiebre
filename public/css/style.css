@@ -24,7 +24,7 @@ body {
 .logoML {
     padding: 5px;
     width: 50%;
-    max-width: 250px;
+    max-width: 328px;
 
 }
 
@@ -169,7 +169,7 @@ footer i {
 
 
 
-@media (min-width: 361px){
+@media (min-width: 768px){
 /*body {
 background-color: red;
 }*/
@@ -231,10 +231,11 @@ article div i {
     position: relative;
     left: 30px;
     width: 50%;
+    padding-right: 15px;
 
 }
 
-li {
+.left-navbar li {
     list-style-type: none;
     background-color: #EAC926;
     float: left;
@@ -242,9 +243,17 @@ li {
     margin-right: 30px;
   }
 
+  .right-navbar li {
+    list-style-type: none;
+    background-color: #EAC926;
+    float: right;
+    text-align: center;
+    margin-right: 30px;
+  }
+
 }
 
-@media (min-width: 769px){
+@media (min-width: 1024px){
 /*body{
 background-color: green;
 }*/
@@ -261,8 +270,8 @@ article {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    font-size: 14px;
-    margin-left: 30px;
+    font-size: 12px;
+    /*margin-left: 30px;*/
 }
 .contenedor-productos article{
     width:22%;
@@ -286,15 +295,23 @@ article div i {
 
 .right-navbar {
     position: relative;
-    left: 100px;
+    left: 35px;
     width: 50%;
-
+    padding-right: 15px;
 }
 
-li {
+.left-navbar li {
     list-style-type: none;
     background-color: #EAC926;
     float: left;
+    text-align: center;
+    margin-right: 30px;
+  }
+
+.right-navbar li {
+    list-style-type: none;
+    background-color: #EAC926;
+    float: right;
     text-align: center;
     margin-right: 30px;
   }
@@ -304,6 +321,6 @@ li {
     position:relative;
     right: 25px;
     text-align: left;
-    font-size: 14px;    
+    font-size: 12px;    
   }
 }
