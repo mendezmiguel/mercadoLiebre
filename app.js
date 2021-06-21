@@ -16,7 +16,16 @@ app.get('/', (req,res)=>{
     res.sendFile(__dirname + '/views/home.html');
 });
 
+app.post('/', (req,res)=>{
+    res.sendFile(__dirname + '/views/home.html');
+});
+
 const registerPath = path.resolve(__dirname, "./views/register.html");
 
 
 app.get('/registro', (req,res) => res.sendFile(registerPath));
+
+const loginPath = path.resolve(__dirname, "./views/login.html");
+
+
+app.get('/ingresar', (req,res) => res.sendFile(loginPath));

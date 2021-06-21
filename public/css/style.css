@@ -35,7 +35,8 @@ body {
 }
 
 .main-header-bottom-bar {
-    display: none
+    display: none;
+    padding-right: 15px;
 }
 
 .center {
@@ -46,14 +47,14 @@ body {
     display: flex;
     background-color: white;
     /*border: 1px solid black;*/
-    margin: 2px;
-    height: 22px;
+    margin: 3px;
+    height: 17px;
     align-items: center;
     text-align: center;
     align-content: center;
     justify-content: center;
     position: relative;
-    left: -20px;
+    left: -23px;
  }
 
 .busqueda {
@@ -149,7 +150,7 @@ footer {
     background-color: white;
     font-size: 16px;
     line-height: 16px;
-    padding-top:60px;
+    padding-top:15px;
     margin-top: 15px
 }
 
@@ -323,4 +324,35 @@ article div i {
     text-align: left;
     font-size: 14px;    
   }
+}
+
+.boton-formulario-registro {
+    background-color: #1259c3;
+    color: #ebebeb;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100px;
+}
+
+.boton-cancelar {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100px
+}
+
+.boton-formulario-login {
+    background-color: #1259c3;
+    color: #ebebeb;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 25%;
+    min-width: 155px;
+}
+
+.login {
+    text-align: left;
+    width: 50%
 }

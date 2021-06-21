@@ -49,94 +49,21 @@
     
     <main>
         <form action="/" method="POST">
-        <div class="register">
-        <h2>Creá tu cuenta</h2>
-            <div>
-                <label for="nombre-completo"></label>
-                <input type="text" id="nombre-completo" name="nombre-completo" placeholder="Nombre y Apellido" minlength="3" required
-                style="height: 25px; border-radius: 5px">
-            </div>
-            <br>
+        <div class="login">
+        <h2>Ingresá</h2>
             <div>
                 <label for="nombre-usuario"></label>
                 <input type="text" id="nombre-usuario" name="nombre-usuario" placeholder="Nombre de usuario" required
-                style="height: 25px; border-radius: 5px">
-            </div>
-            <br>
-            <div>
-                <label for="e-mail"></label>
-                <input type="email" id="e-mail" name="e-mail" placeholder="email@dominio.com" required
-                style="height: 25px; border-radius: 5px">
+                style="min-width: 150px; width: 25%; height: 25px; border-radius: 5px">
             </div>
             <br>
             <div>
                 <label for="password"></label>
                 <input type="password" pattern=".{8,}" id="password" name="password" placeholder="Contraseña" required
-                style="height: 25px; border-radius: 5px">
+                style="min-width: 150px; width: 25%; height: 25px; border-radius: 5px">
             </div>
             <br>
-            <div>
-                <label for="confirmar-password"></label>
-                <input type="password" pattern=".{8,}" id="confirmar-password" name="confirmar-password" placeholder="Confirmar contraseña" required
-                style="height: 25px; border-radius: 5px">
-            </div>              
-            <br>
-            <div>
-                <label for="domicilio"></label>
-                <input type="text" id="domicilio" name="domicilio" placeholder="Domicilio" required
-                style="height: 25px; border-radius: 5px">
-            </div>
-        <h4>Fecha de nacimiento</h4>
-            <div>
-                <label for="fecha-nacimiento"></label>
-                <input id="fecha-nacimiento" type="date" name="fecha-nacimiento" required
-                style="height: 25px; border-radius: 5px">
-            </div>
-
-        <h4>Perfil de usuario</h4>
-            <div>
-                <label Perfil>
-                <input type="radio" name="perfil" value="Comprador"> Comprador
-                <input type="radio" name="perfil" value="Vendedor"> Vendedor
-                </label>
-            </div>
-        <h4>Intereses</h4>
-            <div>
-                <label>
-                    <input name="Categorías" type="checkbox" value="Electro">Electro
-                    </label>
-            </div>
-            <br>
-            <div>
-                <label>
-                    <input name="Categorías" type="checkbox" value="Moda">Moda
-                    </label>
-            </div>
-            <br>
-            <div>
-                <label>
-                    <input name="Categorías" type="checkbox" value="Hogar">Hogar
-                    </label>
-            </div>
-            <br>
-            <div>
-                <label>
-                    <input name="Categorías" type="checkbox" value="Juguetería">Juguetería
-                    </label>
-            </div>
-            <br>
-            <div>
-                <label>
-                    <input name="Categorías" type="checkbox" value="Vida sana">Vida sana
-                    </label>
-            </div>
-            <h4>Foto de perfil</h4>
-            <div>
-                <input type="file" name="imagen" accept="image/*">
-            </div>
-            <br>
-            <button type="submit" class="boton-formulario-registro" >Enviar</button>
-            <button type="reset" class="boton-cancelar">Cancelar</button>
+            <button type="submit" class="boton-formulario-login">Enviar</button>
         </div>
         </form>
     </main>
