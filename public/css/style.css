@@ -41,6 +41,7 @@ body {
 
 .center {
     text-align: center;
+    font-size: 14px;
 }
 
 .blanco {
@@ -327,12 +328,15 @@ article div i {
 }
 
 .boton-formulario-registro {
-    background-color: #1259c3;
-    color: #ebebeb;
     font-size: 16px;
     border-radius: 5px;
     padding: 5px 10px;
     width: 100px;
+}
+
+.boton-formulario-registro:hover {
+    background-color: #0022AA;
+    color: #ebebeb;
 }
 
 .boton-cancelar {
@@ -342,14 +346,22 @@ article div i {
     width: 100px
 }
 
-.boton-formulario-login {
-    background-color: #1259c3;
+.boton-cancelar:hover {
+    background-color: #0022AA;
     color: #ebebeb;
+}
+
+.boton-formulario-login {
     font-size: 16px;
     border-radius: 5px;
     padding: 5px 10px;
     width: 25%;
     min-width: 155px;
+}
+
+.boton-formulario-login:hover {
+background-color: #0022AA;
+color: #ebebeb;
 }
 
 .login {
