@@ -190,7 +190,7 @@ background-color: red;
 .description{
     display:block;
 }
-article {
+article:hover {
     box-shadow: 0px 0px 10px rgb(100,100,100);
 }
 .burger-menu {
@@ -274,7 +274,7 @@ background-color: green;
 .description{
     display:block;
 }
-article {
+article:hover {
     box-shadow: 0px 0px 10px rgb(100,100,100);
 }
 .burger-menu {
