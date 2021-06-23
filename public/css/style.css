@@ -147,20 +147,32 @@ article div i {
 
 footer {
     color: #666;
-    text-align: center;
     background-color: white;
     font-size: 16px;
     line-height: 16px;
     padding-top:15px;
-    margin-top: 15px
+    margin-top: 15px;
+    padding-bottom: 15px
+
 }
 
-footer i {
+.contenedor-footer {
+    text-align: center;
+}
+
+.footer-mensajes {
+    padding: 10px;
+}
+
+.footer-mensajes i {
     color: #1259c3;
     font-size: 2em;
     margin-bottom: 10px;
 }
 
+.footer-mensajes i:hover {
+    color: #39b54a
+}
 
 .contenedor-productos {
     display: flex;
@@ -318,13 +330,18 @@ article div i {
     margin-right: 15px;
   }
 
-  .center {
+.center {
     padding: 0px;
     position:relative;
     right: 25px;
     text-align: left;
     font-size: 14px;    
   }
+
+.contenedor-footer {
+    display: flex;
+    justify-content: space-around;
+    }
 }
 
 .boton-formulario-registro {
